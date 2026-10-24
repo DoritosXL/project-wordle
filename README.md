@@ -8,6 +8,17 @@ In this project, we'll recreate a popular online word game, Wordle:
 
 In Wordle, users have 6 attempts to guess a 5-letter word. You're helped along the way by ruling out letters that aren't in the word, and being told whether the correct letters are in the correct location or not.
 
+## How to play
+
+- You have **6 tries** to guess the secret **5-letter word**.
+- Type a 5-letter word and submit your guess to fill in a row of the grid.
+- After each guess, every letter's tile is colored to give you a clue:
+  - 🟩 **Green** — the letter is in the word, and in the correct spot.
+  - 🟨 **Yellow** — the letter is in the word, but in the wrong spot.
+  - ⬜ **Gray** — the letter isn't in the word at all.
+- Use these clues to narrow down your next guess.
+- You win if you guess the word within 6 tries; otherwise, the correct word is revealed.
+
 ## Getting Started
 
 This project is created with [Parcel](https://parceljs.org/), a modern JS build tool. It's intended to be run locally, on your computer, using Node.js and NPM.
